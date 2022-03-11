@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    position: absolute;
+    height:104px;
+    width: 1024px;
+}
+
+.bardiscount {
+    display: flex;
+    height: 38px;
+    padding: 10px;
+    background: #1CD1B0;
+}
+
+.bardiscount-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    height:18px;
+}
+
+.heroes{
+    display: flex;
+    height: 66px;
+    padding-left: 28px;
+    top: 38px;
+    background-color: #00669F;
+    box-shadow:#f3f3f3;
+}
+
+.heroes-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 66px;
+}
+
+main {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 1024px;
+    height: 530px;
+    top:292px;
+}
+
+.card {
+    position: relative;
+    height: 529px;
+    width: 300px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+.card-background {
+    width: 300px;
+}
+
+.card-image {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+.card-favorite {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 21px;
+    top: 16px;
+    z-index: 10;
+}
+
+.card-face {
+    position: relative;
+    width: 120px;
+    z-index: 10;
+    border-radius: 50%;
+    top:-60px;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding:16px;
+}
+
+.card-button {
+    width: 129px;
+    height: 49px;
+    background:#00669F;
+    text-align: center;
+    line-height: 49px;
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+}
+
+footer {
+    position: absolute;
+    height:51px;
+    line-height: 51px;
+    width: 1024px;
+    top: 988px;
+    padding-left:16px;
+    background-color: #00669F;
+}
+
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin:    0 auto;
+    max-width: 1024px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Roboto;
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 10px 20px 10px 20px;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+
+h1,h2 {
+    font-size: 24px;
+}
+
+h2 {
+    margin:0%;
+    color: red;
+    font-weight:bold;
+}
+
+h3 {
+    margin:0%;
+    font-size: 20px;
+}
+
+.pizza-text {
+    color:#39B24A;
+}
+
+.front-text {
+    color:red;
+}
+
+.and-text {
+    color: white;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight:400;
+    gap: 13px;
+}
+
+header a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+main {    
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    display: flex;
+    font-family: Roboto;
+    padding: 35px 19px 35px 19px;
+}
+
+.articles {
+    align-items: stretch;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 986px;
+    height: 350px;
+}
+
+.article-title-highlight {
+    color: white;
+    font-weight: bold;
+}
+
+#highlight {
+    align-items: flex-start;
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    background-image: url("img/delivery.jpg");
+    background-repeat: no-repeat;
+}
+
+#podio {
+    align-items: stretch;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: space-around;
+    padding: 26px;
+}
+
+#podio h2 {
+    text-align: center;
+}
+
+#podio-ranking {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 28px 0px 28px 0px;
+}
+
+#podio-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#podio-list ol {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #222222;
+    font-family: Roboto;
+    padding: 20px;
+}
+
+
+footer a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#footer-logo{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 212px;
+}

@@ -19,6 +19,7 @@ header{
 .logo-header {
     display: flex;
     align-items: center;
+    gap: 0.5em;
 }
 
 h1,h2 {
@@ -53,7 +54,7 @@ nav {
     display: flex;
     font-size: 16px;
     font-weight:400;
-    gap: 13px;
+    gap: 1em;
 }
 
 header a:link, a:visited, a:hover, a:active {
@@ -67,7 +68,7 @@ main {
     background-color: #E5E5E5;
     display: flex;
     font-family: Roboto;
-    padding: 35px 19px 35px 19px;
+    padding: 3vh 1vw 3vh 1vw;
 }
 
 .articles {
@@ -75,7 +76,7 @@ main {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 0.5vw;
     max-width: 986px;
     height: 350px;
 }
@@ -104,7 +105,7 @@ main {
     flex-direction: column;
     font-weight: bold;
     justify-content: space-around;
-    padding: 26px;
+    padding: 0.75em;
 }
 
 #podio h2 {
@@ -116,7 +117,7 @@ main {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
-    padding: 28px 0px 28px 0px;
+    padding: 0.75em 0px 0.75em 0px;
 }
 
 #podio-list {
@@ -140,7 +141,7 @@ footer {
     flex-wrap: wrap;
     background-color: #222222;
     font-family: Roboto;
-    padding: 20px;
+    padding: 1.5em;
 }
 
 

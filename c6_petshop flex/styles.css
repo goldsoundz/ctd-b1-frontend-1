@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin:    0 auto;
+    max-width: 1024px;
+    font-family: Roboto;
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+}
+
+#header-top {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: #F3F3F3;
+    font-size: 10px;    
+    padding: 0.4em 3em 0.4em 4em;
+}
+
+#header-main {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    height: 3em;
+    padding: 1em 2em 1em 2em;
+}
+
+.header-front {
+    color: #3C2313;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-cat {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 0.5em
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+nav a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.navitem {
+    display: flex;
+    align-items: center;
+}
+
+#slide {
+    background-image: url("img/bowl-and-pet-daities-on-green-background\ 1.png");
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding:10px 100px 10px 100px;
+    text-align: center;
+}
+
+#slide-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slide-title {
+    font-size: 30px;
+    color: #3C2313;
+    padding: 9px 10px 9px 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#slide-button{
+    font-size 16px;
+    color: #FFFFFF;
+    padding: 15px 23px 15px 23px;
+    background-color: #F0A83E;
+    text-transform: uppercase;
+}
+
+#highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;    
+}
+
+#highlight-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #3C2313;
+    margin: 0%;
+}
+
+#highlight-links a:link {
+    text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+}
+
+#highlight-links a:visited {
+    text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+}
+
+#highlight-links a:hover {
+    text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+}
+
+#highlight-links a:active {
+    text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+}
+
+#highlight-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card a:link {
+    text-decoration: none;
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card a:visited {
+    text-decoration: none;
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card a:hover {
+    text-decoration: none;
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card a:active {
+    text-decoration: none;
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-price {
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-main{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 70px 20px 70px;
+    align-items: center;
+}
+
+#footer-datos{
+    display: flex;
+    flex-direction: column;
+    gap:20px;    
+}
+
+.footer-item{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.footer-item img {
+    width: 66px;
+    height: 66px;
+}
+
+.footer-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-small{
+    font-size: 10px;
+    font-weight: bold;
+    color: #8A8787;
+}
+
+footer p {
+    margin:0%;
+}
+
+.footer-front {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-cat {
+    color: #F0A83E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer-derechos{
+    background-color: #222222;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
